@@ -10,7 +10,7 @@ Recently, for me, they are simple and work, but definitely want improvement.
 
 ## You can also download specific folder fellowing method <sub>(e.g. download wordpress-compose directory)</sub>
 <pre>curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards "*/wordpress-compose" --strip-components=1</pre>
-## OR
+<h2>OR</h2>
 <pre>https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose</pre>
 <a href="https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose" target="_blank">Link</a>
 
