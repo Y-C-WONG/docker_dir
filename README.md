@@ -11,4 +11,5 @@ Recently, for me, they are simple and work, but definitely want improvement.
 ## You can also download specific folder fellowing method
 <pre>curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards "*/wordpress-compose" --strip-components=1</pre>
 <pre>https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose</pre>
-[Link](https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose){:target="_blank"}
+<a href="[http://example.com/](https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose)https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose" target="_blank">Link</a>
+
