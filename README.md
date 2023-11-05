@@ -8,7 +8,7 @@ Recently, for me, they are simple and work, but definitely want improvement.
 <pre>curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master</pre>
 [download](https://github.com/Y-C-WONG/docker_dir/tarball/master)
 
-## You can also download specific folder fellowing method (e.g. download wordpress-compose directory)
+## You can also download specific folder fellowing method <font size=”10”>(e.g. download wordpress-compose directory)</font>
 <pre>curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards "*/wordpress-compose" --strip-components=1</pre>
 <pre>https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose</pre>
 <a href="https://download-directory.github.io/?url=https://github.com/Y-C-WONG/docker_dir/tree/main/wordpress-compose" target="_blank">Link</a>
