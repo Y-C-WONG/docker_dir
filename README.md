@@ -5,5 +5,5 @@ I would like to learn more about docker, so will commit any changes if I find so
 Recently, for me, they are simple and work, but definitely want improvement.
 
 ## To download this repos, please use below link.
-<pre>https://github.com/Y-C-WONG/docker_dir/tarball/master</pre>
+<pre>curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master</pre>
 [download](https://github.com/Y-C-WONG/docker_dir/tarball/master)
