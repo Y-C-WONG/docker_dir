@@ -1,0 +1,30 @@
+services:
+    wordpress:
+        image: wordpress
+        depends_on:
+        - mariadb
+        environment:
+        - WORDPRESS_DB_HOST=mariadb:3306
+        - WORDPRESS_DB_PASSWORD=password
+        - WORDPRESS_DB_USER=root
+        ports:
+        - 8011:80
+        volumes:
+        - ./html:/var/www/html
+        networks:
+        - wp_network
+        restart: always
+        
+    mariadb:
+        image: mariadb
+        environment:
+        - MYSQL_ROOT_PASSWORD=password
+        - MYSQL_DATABASE=wordpress
+        volumes:
+        - ./database:/var/lib/mysql
+        networks:
+        - wp_network
+        restart: always
+
+networks:
+    wp_network:
