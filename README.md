@@ -10,7 +10,7 @@ Recently, for me, they are simple and work, but definitely want improvement.
 
 ## You can also download specific folder fellowing method
 
-$${curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards {\color{red}"*/wordpress-compose/" --strip-components=1}$$
+curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards $\color{red}{"*/wordpress-compose/"}$ --strip-components=1
 
 
 $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
