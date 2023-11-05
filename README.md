@@ -9,4 +9,4 @@ Recently, for me, they are simple and work, but definitely want improvement.
 [download](https://github.com/Y-C-WONG/docker_dir/tarball/master)
 
 ## You can also download specific folder fellowing method
-curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards <span style="color: red;">"*/wordpress-compose/"</span> --strip-components=1
+curl -L https://github.com/Y-C-WONG/docker_dir/tarball/master/ | tar xz --wildcards <font color='red'>test blue color font</font>"*/wordpress-compose/"</span> --strip-components=1
